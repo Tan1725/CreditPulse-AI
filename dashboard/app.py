@@ -112,8 +112,10 @@ if model is None:
             st.cache_resource.clear()
             st.rerun()
         except Exception as run_err:
+            import traceback
             status.update(label="❌ Initialization error", state="error")
             st.error(f"Failed to auto-run pipeline: {run_err}")
+            st.code(traceback.format_exc())
             st.stop()
 
 # Navigation Tabs
