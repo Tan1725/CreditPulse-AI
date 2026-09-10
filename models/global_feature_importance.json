@@ -1,0 +1,126 @@
+[
+  {
+    "feature": "fico_score",
+    "importance": 0.1459
+  },
+  {
+    "feature": "total_debt_to_income_ratio",
+    "importance": 0.0627
+  },
+  {
+    "feature": "revolving_utilization_ratio",
+    "importance": 0.0487
+  },
+  {
+    "feature": "inquiries_last_6m",
+    "importance": 0.0356
+  },
+  {
+    "feature": "employment_years",
+    "importance": 0.0249
+  },
+  {
+    "feature": "loan_amount",
+    "importance": 0.0167
+  },
+  {
+    "feature": "payment_to_income_ratio",
+    "importance": 0.0121
+  },
+  {
+    "feature": "home_ownership_MORTGAGE",
+    "importance": 0.0102
+  },
+  {
+    "feature": "education_level_High School",
+    "importance": 0.0101
+  },
+  {
+    "feature": "home_ownership_RENT",
+    "importance": 0.0094
+  },
+  {
+    "feature": "term_months",
+    "importance": 0.0065
+  },
+  {
+    "feature": "loan_intent_VENTURE",
+    "importance": 0.0065
+  },
+  {
+    "feature": "prior_max_dpd_12m",
+    "importance": 0.0049
+  },
+  {
+    "feature": "open_credit_lines",
+    "importance": 0.0045
+  },
+  {
+    "feature": "annual_income",
+    "importance": 0.0043
+  },
+  {
+    "feature": "age",
+    "importance": 0.0036
+  },
+  {
+    "feature": "loan_intent_DEBT_CONSOLIDATION",
+    "importance": 0.0032
+  },
+  {
+    "feature": "loan_intent_PERSONAL",
+    "importance": 0.0032
+  },
+  {
+    "feature": "bankruptcies",
+    "importance": 0.0028
+  },
+  {
+    "feature": "prior_delinquent_months",
+    "importance": 0.0028
+  },
+  {
+    "feature": "education_level_PhD",
+    "importance": 0.0028
+  },
+  {
+    "feature": "loan_intent_MEDICAL",
+    "importance": 0.0027
+  },
+  {
+    "feature": "rolling_payment_ratio_3m",
+    "importance": 0.0026
+  },
+  {
+    "feature": "loan_intent_HOME_IMPROVEMENT",
+    "importance": 0.0026
+  },
+  {
+    "feature": "home_ownership_OTHER",
+    "importance": 0.0025
+  },
+  {
+    "feature": "interest_rate",
+    "importance": 0.0019
+  },
+  {
+    "feature": "education_level_Bachelor",
+    "importance": 0.0018
+  },
+  {
+    "feature": "home_ownership_OWN",
+    "importance": 0.0014
+  },
+  {
+    "feature": "education_level_Master",
+    "importance": 0.0013
+  },
+  {
+    "feature": "loan_intent_EDUCATION",
+    "importance": 0.0007
+  },
+  {
+    "feature": "rolling_avg_dpd_6m",
+    "importance": 0.0004
+  }
+]

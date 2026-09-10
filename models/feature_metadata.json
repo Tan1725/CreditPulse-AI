@@ -1,0 +1,33 @@
+{
+  "best_model_name": "Logistic_Regression",
+  "numerical_features": [
+    "age",
+    "annual_income",
+    "employment_years",
+    "fico_score",
+    "open_credit_lines",
+    "bankruptcies",
+    "inquiries_last_6m",
+    "revolving_utilization_ratio",
+    "total_debt_to_income_ratio",
+    "payment_to_income_ratio",
+    "loan_amount",
+    "interest_rate",
+    "term_months",
+    "rolling_avg_dpd_6m",
+    "prior_max_dpd_12m",
+    "prior_delinquent_months",
+    "rolling_payment_ratio_3m"
+  ],
+  "categorical_features": [
+    "home_ownership",
+    "education_level",
+    "loan_intent"
+  ],
+  "class_imbalance_ratio": 3.88,
+  "sample_counts": {
+    "train": 7000,
+    "val": 1500,
+    "test": 1500
+  }
+}

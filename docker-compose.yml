@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  creditpulse:
+    build: .
+    container_name: creditpulse_service
+    ports:
+      - "8000:8000" # FastAPI REST API
+      - "8501:8501" # Streamlit Dashboard
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+    restart: unless-stopped

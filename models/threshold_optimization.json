@@ -1,0 +1,637 @@
+{
+  "optimal_threshold": 0.29,
+  "optimal_profit": 3863165.0,
+  "optimal_approval_rate": 0.7913,
+  "optimal_approved_default_rate": 0.1045,
+  "naive_threshold": 0.5,
+  "naive_profit": 3748025.46,
+  "naive_approval_rate": 0.816,
+  "naive_approved_default_rate": 0.116,
+  "incremental_profit_dollars": 115139.54,
+  "percentage_profit_improvement": 3.07,
+  "simulation_curve": [
+    {
+      "threshold": 0.02,
+      "approval_rate": 0.1233,
+      "approved_count": 185,
+      "approved_default_rate": 0.0108,
+      "net_profit": 776678.46
+    },
+    {
+      "threshold": 0.03,
+      "approval_rate": 0.1413,
+      "approved_count": 212,
+      "approved_default_rate": 0.0094,
+      "net_profit": 875190.58
+    },
+    {
+      "threshold": 0.04,
+      "approval_rate": 0.1413,
+      "approved_count": 212,
+      "approved_default_rate": 0.0094,
+      "net_profit": 875190.58
+    },
+    {
+      "threshold": 0.05,
+      "approval_rate": 0.1413,
+      "approved_count": 212,
+      "approved_default_rate": 0.0094,
+      "net_profit": 875190.58
+    },
+    {
+      "threshold": 0.06,
+      "approval_rate": 0.2807,
+      "approved_count": 421,
+      "approved_default_rate": 0.0261,
+      "net_profit": 1728889.94
+    },
+    {
+      "threshold": 0.07,
+      "approval_rate": 0.2807,
+      "approved_count": 421,
+      "approved_default_rate": 0.0261,
+      "net_profit": 1728889.94
+    },
+    {
+      "threshold": 0.08,
+      "approval_rate": 0.2993,
+      "approved_count": 449,
+      "approved_default_rate": 0.0245,
+      "net_profit": 1880458.34
+    },
+    {
+      "threshold": 0.09,
+      "approval_rate": 0.2993,
+      "approved_count": 449,
+      "approved_default_rate": 0.0245,
+      "net_profit": 1880458.34
+    },
+    {
+      "threshold": 0.1,
+      "approval_rate": 0.318,
+      "approved_count": 477,
+      "approved_default_rate": 0.0356,
+      "net_profit": 1967773.3
+    },
+    {
+      "threshold": 0.11,
+      "approval_rate": 0.5033,
+      "approved_count": 755,
+      "approved_default_rate": 0.0596,
+      "net_profit": 2894838.56
+    },
+    {
+      "threshold": 0.12,
+      "approval_rate": 0.5053,
+      "approved_count": 758,
+      "approved_default_rate": 0.0607,
+      "net_profit": 2895421.68
+    },
+    {
+      "threshold": 0.13,
+      "approval_rate": 0.53,
+      "approved_count": 795,
+      "approved_default_rate": 0.0591,
+      "net_profit": 3087781.88
+    },
+    {
+      "threshold": 0.14,
+      "approval_rate": 0.5313,
+      "approved_count": 797,
+      "approved_default_rate": 0.059,
+      "net_profit": 3094784.41
+    },
+    {
+      "threshold": 0.15,
+      "approval_rate": 0.5313,
+      "approved_count": 797,
+      "approved_default_rate": 0.059,
+      "net_profit": 3094784.41
+    },
+    {
+      "threshold": 0.16,
+      "approval_rate": 0.5327,
+      "approved_count": 799,
+      "approved_default_rate": 0.0588,
+      "net_profit": 3103837.16
+    },
+    {
+      "threshold": 0.17,
+      "approval_rate": 0.534,
+      "approved_count": 801,
+      "approved_default_rate": 0.0587,
+      "net_profit": 3109269.2
+    },
+    {
+      "threshold": 0.18,
+      "approval_rate": 0.534,
+      "approved_count": 801,
+      "approved_default_rate": 0.0587,
+      "net_profit": 3109269.2
+    },
+    {
+      "threshold": 0.19,
+      "approval_rate": 0.6333,
+      "approved_count": 950,
+      "approved_default_rate": 0.0747,
+      "net_profit": 3373017.26
+    },
+    {
+      "threshold": 0.2,
+      "approval_rate": 0.634,
+      "approved_count": 951,
+      "approved_default_rate": 0.0757,
+      "net_profit": 3366577.26
+    },
+    {
+      "threshold": 0.21,
+      "approval_rate": 0.634,
+      "approved_count": 951,
+      "approved_default_rate": 0.0757,
+      "net_profit": 3366577.26
+    },
+    {
+      "threshold": 0.22,
+      "approval_rate": 0.6347,
+      "approved_count": 952,
+      "approved_default_rate": 0.0756,
+      "net_profit": 3369968.75
+    },
+    {
+      "threshold": 0.23,
+      "approval_rate": 0.6347,
+      "approved_count": 952,
+      "approved_default_rate": 0.0756,
+      "net_profit": 3369968.75
+    },
+    {
+      "threshold": 0.24,
+      "approval_rate": 0.79,
+      "approved_count": 1185,
+      "approved_default_rate": 0.1046,
+      "net_profit": 3857937.25
+    },
+    {
+      "threshold": 0.25,
+      "approval_rate": 0.79,
+      "approved_count": 1185,
+      "approved_default_rate": 0.1046,
+      "net_profit": 3857937.25
+    },
+    {
+      "threshold": 0.26,
+      "approval_rate": 0.79,
+      "approved_count": 1185,
+      "approved_default_rate": 0.1046,
+      "net_profit": 3857937.25
+    },
+    {
+      "threshold": 0.27,
+      "approval_rate": 0.7907,
+      "approved_count": 1186,
+      "approved_default_rate": 0.1046,
+      "net_profit": 3860657.6
+    },
+    {
+      "threshold": 0.28,
+      "approval_rate": 0.7907,
+      "approved_count": 1186,
+      "approved_default_rate": 0.1046,
+      "net_profit": 3860657.6
+    },
+    {
+      "threshold": 0.29,
+      "approval_rate": 0.7913,
+      "approved_count": 1187,
+      "approved_default_rate": 0.1045,
+      "net_profit": 3863165.0
+    },
+    {
+      "threshold": 0.3,
+      "approval_rate": 0.8073,
+      "approved_count": 1211,
+      "approved_default_rate": 0.1115,
+      "net_profit": 3825167.76
+    },
+    {
+      "threshold": 0.31,
+      "approval_rate": 0.8073,
+      "approved_count": 1211,
+      "approved_default_rate": 0.1115,
+      "net_profit": 3825167.76
+    },
+    {
+      "threshold": 0.32,
+      "approval_rate": 0.8073,
+      "approved_count": 1211,
+      "approved_default_rate": 0.1115,
+      "net_profit": 3825167.76
+    },
+    {
+      "threshold": 0.33,
+      "approval_rate": 0.8073,
+      "approved_count": 1211,
+      "approved_default_rate": 0.1115,
+      "net_profit": 3825167.76
+    },
+    {
+      "threshold": 0.34,
+      "approval_rate": 0.8133,
+      "approved_count": 1220,
+      "approved_default_rate": 0.1139,
+      "net_profit": 3801181.9
+    },
+    {
+      "threshold": 0.35,
+      "approval_rate": 0.8133,
+      "approved_count": 1220,
+      "approved_default_rate": 0.1139,
+      "net_profit": 3801181.9
+    },
+    {
+      "threshold": 0.36,
+      "approval_rate": 0.814,
+      "approved_count": 1221,
+      "approved_default_rate": 0.1147,
+      "net_profit": 3785641.9
+    },
+    {
+      "threshold": 0.37,
+      "approval_rate": 0.814,
+      "approved_count": 1221,
+      "approved_default_rate": 0.1147,
+      "net_profit": 3785641.9
+    },
+    {
+      "threshold": 0.38,
+      "approval_rate": 0.814,
+      "approved_count": 1221,
+      "approved_default_rate": 0.1147,
+      "net_profit": 3785641.9
+    },
+    {
+      "threshold": 0.39,
+      "approval_rate": 0.814,
+      "approved_count": 1221,
+      "approved_default_rate": 0.1147,
+      "net_profit": 3785641.9
+    },
+    {
+      "threshold": 0.4,
+      "approval_rate": 0.814,
+      "approved_count": 1221,
+      "approved_default_rate": 0.1147,
+      "net_profit": 3785641.9
+    },
+    {
+      "threshold": 0.41,
+      "approval_rate": 0.8147,
+      "approved_count": 1222,
+      "approved_default_rate": 0.1146,
+      "net_profit": 3787365.46
+    },
+    {
+      "threshold": 0.42,
+      "approval_rate": 0.8147,
+      "approved_count": 1222,
+      "approved_default_rate": 0.1146,
+      "net_profit": 3787365.46
+    },
+    {
+      "threshold": 0.43,
+      "approval_rate": 0.8147,
+      "approved_count": 1222,
+      "approved_default_rate": 0.1146,
+      "net_profit": 3787365.46
+    },
+    {
+      "threshold": 0.44,
+      "approval_rate": 0.8147,
+      "approved_count": 1222,
+      "approved_default_rate": 0.1146,
+      "net_profit": 3787365.46
+    },
+    {
+      "threshold": 0.45,
+      "approval_rate": 0.8147,
+      "approved_count": 1222,
+      "approved_default_rate": 0.1146,
+      "net_profit": 3787365.46
+    },
+    {
+      "threshold": 0.46,
+      "approval_rate": 0.8147,
+      "approved_count": 1222,
+      "approved_default_rate": 0.1146,
+      "net_profit": 3787365.46
+    },
+    {
+      "threshold": 0.47,
+      "approval_rate": 0.8153,
+      "approved_count": 1223,
+      "approved_default_rate": 0.1153,
+      "net_profit": 3756915.46
+    },
+    {
+      "threshold": 0.48,
+      "approval_rate": 0.8153,
+      "approved_count": 1223,
+      "approved_default_rate": 0.1153,
+      "net_profit": 3756915.46
+    },
+    {
+      "threshold": 0.49,
+      "approval_rate": 0.816,
+      "approved_count": 1224,
+      "approved_default_rate": 0.116,
+      "net_profit": 3748025.46
+    },
+    {
+      "threshold": 0.5,
+      "approval_rate": 0.816,
+      "approved_count": 1224,
+      "approved_default_rate": 0.116,
+      "net_profit": 3748025.46
+    },
+    {
+      "threshold": 0.51,
+      "approval_rate": 0.868,
+      "approved_count": 1302,
+      "approved_default_rate": 0.1359,
+      "net_profit": 3565094.29
+    },
+    {
+      "threshold": 0.52,
+      "approval_rate": 0.8687,
+      "approved_count": 1303,
+      "approved_default_rate": 0.1366,
+      "net_profit": 3545564.29
+    },
+    {
+      "threshold": 0.53,
+      "approval_rate": 0.8687,
+      "approved_count": 1303,
+      "approved_default_rate": 0.1366,
+      "net_profit": 3545564.29
+    },
+    {
+      "threshold": 0.54,
+      "approval_rate": 0.8993,
+      "approved_count": 1349,
+      "approved_default_rate": 0.1505,
+      "net_profit": 3385581.9
+    },
+    {
+      "threshold": 0.55,
+      "approval_rate": 0.9,
+      "approved_count": 1350,
+      "approved_default_rate": 0.1504,
+      "net_profit": 3391269.14
+    },
+    {
+      "threshold": 0.56,
+      "approval_rate": 0.902,
+      "approved_count": 1353,
+      "approved_default_rate": 0.1508,
+      "net_profit": 3393116.24
+    },
+    {
+      "threshold": 0.57,
+      "approval_rate": 0.9167,
+      "approved_count": 1375,
+      "approved_default_rate": 0.1564,
+      "net_profit": 3367428.37
+    },
+    {
+      "threshold": 0.58,
+      "approval_rate": 0.9167,
+      "approved_count": 1375,
+      "approved_default_rate": 0.1564,
+      "net_profit": 3367428.37
+    },
+    {
+      "threshold": 0.59,
+      "approval_rate": 0.9167,
+      "approved_count": 1375,
+      "approved_default_rate": 0.1564,
+      "net_profit": 3367428.37
+    },
+    {
+      "threshold": 0.6,
+      "approval_rate": 0.9167,
+      "approved_count": 1375,
+      "approved_default_rate": 0.1564,
+      "net_profit": 3367428.37
+    },
+    {
+      "threshold": 0.61,
+      "approval_rate": 0.9167,
+      "approved_count": 1375,
+      "approved_default_rate": 0.1564,
+      "net_profit": 3367428.37
+    },
+    {
+      "threshold": 0.62,
+      "approval_rate": 0.9213,
+      "approved_count": 1382,
+      "approved_default_rate": 0.1585,
+      "net_profit": 3357276.28
+    },
+    {
+      "threshold": 0.63,
+      "approval_rate": 0.934,
+      "approved_count": 1401,
+      "approved_default_rate": 0.1656,
+      "net_profit": 3289914.38
+    },
+    {
+      "threshold": 0.64,
+      "approval_rate": 0.9347,
+      "approved_count": 1402,
+      "approved_default_rate": 0.1662,
+      "net_profit": 3287884.38
+    },
+    {
+      "threshold": 0.65,
+      "approval_rate": 0.9547,
+      "approved_count": 1432,
+      "approved_default_rate": 0.176,
+      "net_profit": 3155355.3
+    },
+    {
+      "threshold": 0.66,
+      "approval_rate": 0.9547,
+      "approved_count": 1432,
+      "approved_default_rate": 0.176,
+      "net_profit": 3155355.3
+    },
+    {
+      "threshold": 0.67,
+      "approval_rate": 0.9547,
+      "approved_count": 1432,
+      "approved_default_rate": 0.176,
+      "net_profit": 3155355.3
+    },
+    {
+      "threshold": 0.68,
+      "approval_rate": 0.9547,
+      "approved_count": 1432,
+      "approved_default_rate": 0.176,
+      "net_profit": 3155355.3
+    },
+    {
+      "threshold": 0.69,
+      "approval_rate": 0.9547,
+      "approved_count": 1432,
+      "approved_default_rate": 0.176,
+      "net_profit": 3155355.3
+    },
+    {
+      "threshold": 0.7,
+      "approval_rate": 0.9547,
+      "approved_count": 1432,
+      "approved_default_rate": 0.176,
+      "net_profit": 3155355.3
+    },
+    {
+      "threshold": 0.71,
+      "approval_rate": 0.9547,
+      "approved_count": 1432,
+      "approved_default_rate": 0.176,
+      "net_profit": 3155355.3
+    },
+    {
+      "threshold": 0.72,
+      "approval_rate": 0.9547,
+      "approved_count": 1432,
+      "approved_default_rate": 0.176,
+      "net_profit": 3155355.3
+    },
+    {
+      "threshold": 0.73,
+      "approval_rate": 0.9713,
+      "approved_count": 1457,
+      "approved_default_rate": 0.1846,
+      "net_profit": 3037998.52
+    },
+    {
+      "threshold": 0.74,
+      "approval_rate": 0.9713,
+      "approved_count": 1457,
+      "approved_default_rate": 0.1846,
+      "net_profit": 3037998.52
+    },
+    {
+      "threshold": 0.75,
+      "approval_rate": 0.9713,
+      "approved_count": 1457,
+      "approved_default_rate": 0.1846,
+      "net_profit": 3037998.52
+    },
+    {
+      "threshold": 0.76,
+      "approval_rate": 0.9713,
+      "approved_count": 1457,
+      "approved_default_rate": 0.1846,
+      "net_profit": 3037998.52
+    },
+    {
+      "threshold": 0.77,
+      "approval_rate": 0.9713,
+      "approved_count": 1457,
+      "approved_default_rate": 0.1846,
+      "net_profit": 3037998.52
+    },
+    {
+      "threshold": 0.78,
+      "approval_rate": 0.9713,
+      "approved_count": 1457,
+      "approved_default_rate": 0.1846,
+      "net_profit": 3037998.52
+    },
+    {
+      "threshold": 0.79,
+      "approval_rate": 0.9713,
+      "approved_count": 1457,
+      "approved_default_rate": 0.1846,
+      "net_profit": 3037998.52
+    },
+    {
+      "threshold": 0.8,
+      "approval_rate": 0.9713,
+      "approved_count": 1457,
+      "approved_default_rate": 0.1846,
+      "net_profit": 3037998.52
+    },
+    {
+      "threshold": 0.81,
+      "approval_rate": 0.9713,
+      "approved_count": 1457,
+      "approved_default_rate": 0.1846,
+      "net_profit": 3037998.52
+    },
+    {
+      "threshold": 0.82,
+      "approval_rate": 0.9713,
+      "approved_count": 1457,
+      "approved_default_rate": 0.1846,
+      "net_profit": 3037998.52
+    },
+    {
+      "threshold": 0.83,
+      "approval_rate": 0.9713,
+      "approved_count": 1457,
+      "approved_default_rate": 0.1846,
+      "net_profit": 3037998.52
+    },
+    {
+      "threshold": 0.84,
+      "approval_rate": 0.9713,
+      "approved_count": 1457,
+      "approved_default_rate": 0.1846,
+      "net_profit": 3037998.52
+    },
+    {
+      "threshold": 0.85,
+      "approval_rate": 0.9713,
+      "approved_count": 1457,
+      "approved_default_rate": 0.1846,
+      "net_profit": 3037998.52
+    },
+    {
+      "threshold": 0.86,
+      "approval_rate": 0.9713,
+      "approved_count": 1457,
+      "approved_default_rate": 0.1846,
+      "net_profit": 3037998.52
+    },
+    {
+      "threshold": 0.87,
+      "approval_rate": 0.9713,
+      "approved_count": 1457,
+      "approved_default_rate": 0.1846,
+      "net_profit": 3037998.52
+    },
+    {
+      "threshold": 0.88,
+      "approval_rate": 0.9713,
+      "approved_count": 1457,
+      "approved_default_rate": 0.1846,
+      "net_profit": 3037998.52
+    },
+    {
+      "threshold": 0.89,
+      "approval_rate": 0.9713,
+      "approved_count": 1457,
+      "approved_default_rate": 0.1846,
+      "net_profit": 3037998.52
+    },
+    {
+      "threshold": 0.9,
+      "approval_rate": 0.9713,
+      "approved_count": 1457,
+      "approved_default_rate": 0.1846,
+      "net_profit": 3037998.52
+    }
+  ]
+}
