@@ -88,19 +88,33 @@ def load_ml_assets():
             thresh_config = json.load(f)
         with open(MODELS_DIR / "benchmark_results.json", "r") as f:
             benchmark = json.load(f)
-        return model, metadata, thresh_config, benchmark
+        return model, metadata, thresh_config, benchmark, None
     except Exception as e:
-        return None, None, None, None
+        return None, None, None, None, str(e)
 
-model, metadata, thresh_config, benchmark = load_ml_assets()
+model, metadata, thresh_config, benchmark, load_err = load_ml_assets()
 
 # Header
 st.title("🏦 CreditPulse-AI: Risk & Decision Intelligence")
 st.caption("Production Underwriting Engine • DuckDB SQL Warehouse • Cost-Sensitive Optimization • Regulatory SHAP • PSI Drift Monitoring")
 
 if model is None:
-    st.error("⚠️ Model artifacts not found. Please run `python run_pipeline.py` first to generate models and warehouse tables.")
-    st.stop()
+    st.info(f"⚙️ First-time cloud setup required. Diagnostic: {load_err if load_err else 'Artifacts missing'}")
+    with st.status("🚀 Auto-Initializing Database & Training Calibrated ML Models (~18s)...", expanded=True) as status:
+        st.write("1. 📦 Seeding DuckDB relational warehouse (10,000 customers, 120,000 payment records)...")
+        st.write("2. ⚡ Materializing SQL feature view with rolling window functions...")
+        st.write("3. 🤖 Benchmarking ML models (Logistic Regression, Random Forest, XGBoost)...")
+        st.write("4. 🎯 Calibrating default probabilities & solving cost-sensitive threshold (tau*)...")
+        try:
+            from run_pipeline import run_all
+            run_all(force_reseed=True)
+            status.update(label="✅ Setup complete! Reloading dashboard...", state="complete")
+            st.cache_resource.clear()
+            st.rerun()
+        except Exception as run_err:
+            status.update(label="❌ Initialization error", state="error")
+            st.error(f"Failed to auto-run pipeline: {run_err}")
+            st.stop()
 
 # Navigation Tabs
 tab1, tab2, tab3, tab4 = st.tabs([
