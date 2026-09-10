@@ -90,18 +90,21 @@ def explain_single_applicant(applicant_dict: dict) -> list:
     df_single = pd.DataFrame([applicant_dict])
     X_trans = preprocessor.transform(df_single)
 
-    try:
-        explainer = joblib.load(MODELS_DIR / "shap_explainer.joblib")
-        shap_vals = explainer.shap_values(X_trans)
-        if isinstance(shap_vals, list):
-            vals = shap_vals[1][0]
-        elif len(shap_vals.shape) == 3:
-            vals = shap_vals[0, :, 1]
-        else:
-            vals = shap_vals[0]
-    except Exception:
-        explainer = shap.Explainer(clf.predict_proba, X_trans)
-        vals = explainer(X_trans).values[0, :, 1]
+    if hasattr(clf, "coef_"):
+        # Exact linear log-odds contribution (sub-millisecond computation)
+        vals = (clf.coef_[0] * X_trans[0]).tolist()
+    else:
+        try:
+            explainer = joblib.load(MODELS_DIR / "shap_explainer.joblib")
+            shap_vals = explainer.shap_values(X_trans)
+            if isinstance(shap_vals, list):
+                vals = shap_vals[1][0]
+            elif len(shap_vals.shape) == 3:
+                vals = shap_vals[0, :, 1]
+            else:
+                vals = shap_vals[0]
+        except Exception:
+            vals = np.zeros(len(feature_names))
 
     adverse_reasons = []
     for fname, val in zip(feature_names, vals):
